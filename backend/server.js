@@ -134,7 +134,7 @@ async function startServer() {
 
   const app = express();
   app.set('trust proxy', 1);
-  const PORT = 10000;
+  const PORT = 3000;
 
   app.use(cors());
   app.use(express.json());
